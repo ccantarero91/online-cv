@@ -67,36 +67,36 @@ experiences:
         time: 2021 - Present
         company: Xebia Functional (previously 47 Degrees)
         details: |
-          - **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using **Scala**, **cats**, **cats-effect**, and various frameworks and tools
-          - Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems
-          - Proficient in using **AWS**, **Kafka**, **Postgres** and other technologies to build and deploy cloud-based solutions
-          - Experienced in working with different clients and domains, such as:
-              - **SiriusXM**: Developed a service to orchestrate the removal of user data
-              - **Depop**: Worked on a new notification for shipping, a new onsite ads feature, and a new service to calculate the depop's fee quotes
-              - **Packlink**: Performed data migration from ElasticSearch to MySQL, refactored postal codes service, and added update data flow
+          **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using **Scala**, **cats**, **cats-effect**, and various frameworks and tools
+          Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems
+          Proficient in using **AWS**, **Kafka**, **Postgres** and other technologies to build and deploy cloud-based solutions
+          Experienced in working with different clients and domains, such as:
+            - **SiriusXM**: Developed a service to orchestrate the removal of user data
+            - **Depop**: Worked on a new notification for shipping, a new onsite ads feature, and a new service to calculate the depop's fee quotes
+            - **Packlink**: Performed data migration from ElasticSearch to MySQL, refactored postal codes service, and added update data flow
 
       - role: Big Data Engineer
         time: 2018 - 2021
         company: France Telecom Espana (Orange)
         details: |
-          - **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark**, **Hive**, **Impala** between other frameworks and applications
-          - Experienced in working with heterogeneous teams and use cases, such as:
-              - Architecture team where I help to develop applications to be used in different use cases and domains .
-              - Churn use cases where using different ETL, AI models and business specific knowledge we defined the customer's daily risk
+          **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark**, **Hive**, **Impala** between other frameworks and applications
+          Experienced in working with heterogeneous teams and use cases, such as:
+            - Architecture team where I help to develop applications to be used in different use cases and domains .
+            - Churn use cases where using different ETL, AI models and business specific knowledge we defined the customer's daily risk
 
       - role: Big Data Engineer
         time: 2017 - 2018
         company: Stratio BD
         details: |
-          - I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark** and **Hive** 
-          - I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
+          I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark** and **Hive** 
+          I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
 
       - role: From Internship to Solutions Analyst
         time: 2013 - 2018
         company: NTT Data (previously Everis)
         details: |
-          - I did my Final Degree as a collaboration between the Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación de la Universidad Politécnica de Madrid.
-          - I worked on the France Telecom Espana (Orange) client. *Developing several web applications such as EUREKA a sales staff tool which found the best tariff and terminal for end customer*
+          I did my Final Degree as a collaboration between the Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación de la Universidad Politécnica de Madrid.
+          I worked on the France Telecom Espana (Orange) client developing and leading several web applications projects such as EUREKA, a sales staff tool which found the best tariff and terminals
 
 
 # certifications:
