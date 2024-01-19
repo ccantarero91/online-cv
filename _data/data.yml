@@ -218,17 +218,17 @@ skills:
       - name: Typelevel Framework (e.g. Cats, Cats-Effect, etc)
         level: 75%
 
+      - name: Spark
+        level: 75%
+
       - name: SQL (e.g. PostgresSQL)
         level: 70%
 
+      - name: Cloud (e.g. AWS, GCP, etc)
+        level: 65%
+
       - name: NoSQL (e.g. DynamoDB)
         level: 60%
-
-      - name: Cloud (e.g. AWS, GCP, etc)
-        level: 70%
-
-      - name: Spark
-        level: 75%
 
       - name: Java
         level: 60%
