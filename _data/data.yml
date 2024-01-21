@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -52,7 +52,8 @@ career-profile:
     summary: |
       I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems.
       
-      I have a strong passion for learning and applying new technologies to real-world challenges. I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
+      I have a strong passion for learning and applying new technologies to real-world challenges. 
+      I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
 
 education:
     title: Education
@@ -68,36 +69,45 @@ experiences:
         time: 2021 - Present
         company: Xebia Functional (previously 47 Degrees)
         details: |
-          **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using **Scala**, **cats**, **cats-effect**, and various frameworks and tools
-          Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems
-          Proficient in using **AWS**, **Kafka**, **Postgres** and other technologies to build and deploy cloud-based solutions
+          **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using 
+          **Scala**, **typelevel**, and several frameworks and tools.
+          
+          Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems.
+          
+          Proficient in using **Kafka**, **Postgres**, **AWS stack** and other technologies to build and deploy cloud-based solutions.
+          
           Experienced in working with different clients and domains, such as:
-            - **SiriusXM**: Developed a service to orchestrate the removal of user data
-            - **Depop**: Worked on a new notification for shipping, a new onsite ads feature, and a new service to calculate the depop's fee quotes
-            - **Packlink**: Performed data migration from ElasticSearch to MySQL, refactored postal codes service, and added update data flow
+            - **SiriusXM**: Developed a service to orchestrate the removal of user data between various teams on the company.
+            - **Depop**: Worked on a new notification for shipping, a new onsite ads feature, and a new service to calculate the depop's fee quotes.
+            - **Packlink**: Performed data migration from ElasticSearch to MySQL, refactored postal codes service, and added update data flow.
 
       - role: Big Data Engineer
         time: 2018 - 2021
         company: France Telecom Espana (Orange)
         details: |
-          **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark**, **Hive**, **Impala** between other frameworks and applications
+          **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark** between other frameworks and applications.
+          
           Experienced in working with heterogeneous teams and use cases, such as:
-            - Architecture team where I help to develop applications to be used in different use cases and domains .
-            - Churn use cases where using different ETL, AI models and business specific knowledge we defined the customer's daily risk
+            - Architecture team, where I help to develop applications to be used in different use cases and domains.
+            - Churn use cases, where using different ETL, AI models and business specific knowledge we defined the customer's daily risk.
 
       - role: Big Data Engineer
         time: 2017 - 2018
         company: Stratio BD
         details: |
-          I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark** and **Hive** 
+          I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark** and **Hive**.
+          
           I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
 
-      - role: From Internship to Solutions Analyst
+      - role: Internship -> Solutions Analyst
         time: 2013 - 2018
         company: NTT Data (previously Everis)
         details: |
-          I did my Final Degree as a collaboration between the Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación de la Universidad Politécnica de Madrid.
-          I worked on the France Telecom Espana (Orange) client developing and leading several web applications projects such as EUREKA, a sales staff tool which found the best tariff and terminals
+          I did my Final Degree as a collaboration between the Universidad Politécnica de Madrid related with OMV an social networks.
+          After that, I started my professional career taking experience working for France Telecom Espana (Orange), at the beginning developing 
+          and in the end leading several web applications projects. 
+          
+          As example, I was part of the EUREKA project, a sales staff tool which found the best tariff and terminals.
 
 
 # certifications:
