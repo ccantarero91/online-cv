@@ -8,7 +8,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Cristian Cantarero
+    name: Cristian Cantarero Dávila
     tagline: Scala Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -50,7 +50,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems. 
+      I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems.
+      
       I have a strong passion for learning and applying new technologies to real-world challenges. I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
 
 education:
