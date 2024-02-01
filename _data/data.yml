@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Cristian Cantarero Dávila
-    tagline: Scala Developer
+    tagline: Senior Software Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -77,9 +77,15 @@ experiences:
           Proficient in using **Kafka**, **Postgres**, **AWS stack** and other technologies to build and deploy cloud-based solutions.
           
           Experienced in working with different clients and domains, such as:
-            - **SiriusXM**: Developed a service to orchestrate the removal of user data between various teams on the company.
-            - **Depop**: Worked on a new notification for shipping, a new onsite ads feature, and a new service to calculate the depop's fee quotes.
-            - **Packlink**: Performed data migration from ElasticSearch to MySQL, refactored postal codes service, and added update data flow.
+            - **SiriusXM**: Leading and developing a cross company platform to remove user private information and help in the law application.
+            - **Depop**: 
+              - Worked on the first iteration of an in-house ads platform, business critical resulting in several million of revenue.
+              - Worked and collaborating on service for promotions that uses a custom internal DSL to express promotions.
+              - Both of them purely BE development as well as customer facing features, collaborating closely with frontend developers in the same agile/lean team. 
+              - Always having business focused, working in  to unlock value for final users and company.
+            - **Packlink**: 
+              - Worked on a data migration from a completely denormalized postal codes model stored as documents in ElasticSearch to a normalize model in MySQL.
+              - Also, worked and collaborated on redefinition of services and data flows to simplify postal code changes. 
 
       - role: Big Data Engineer
         time: 2018 - 2021
@@ -88,8 +94,8 @@ experiences:
           **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark** between other frameworks and applications.
           
           Experienced in working with heterogeneous teams and use cases, such as:
-            - Architecture team, where I help to develop applications to be used in different use cases and domains.
-            - Churn use cases, where using different ETL, AI models and business specific knowledge we defined the customer's daily risk.
+            - Architecture team, where I help to develop platforms to be used by several teams on the company to reduce and make easier the creation of new ETL and use cases.
+            - Churn use cases, where using different ETL, AI models and business specific knowledge we defined the customer's daily risk working thigh with the marketing team to make big impact on the business and the time to market. 
 
       - role: Big Data Engineer
         time: 2017 - 2018
@@ -103,11 +109,19 @@ experiences:
         time: 2013 - 2018
         company: NTT Data (previously Everis)
         details: |
-          I did my Final Degree as a collaboration between the Universidad Politécnica de Madrid related with OMV an social networks.
-          After that, I started my professional career taking experience working for France Telecom Espana (Orange), at the beginning developing 
-          and in the end leading several web applications projects. 
+          - I started my internship helping in the improvement and manage of uses cases demand for France Telecom Espana (Orange). 
           
-          As example, I was part of the EUREKA project, a sales staff tool which found the best tariff and terminals.
+          - A few months later, I did my final degree as a collaboration between the Universidad Politécnica de Madrid.
+          It was related with Virtual Mobile Operators and how to provide different services to their costumer through social networks. 
+          
+          - After that, in the same client for five years I was part of several successful use cases where we created 
+          several web applications oriented in make marketing and telemarketing daily work easier.  
+          
+          - At the beggining my work was more oriented in develop BE and FE web services and at the end I was leading 
+          a team in charge of provide new features in the apps and web applications used by the end customer. 
+        
+          - As a good example, I was part of the EUREKA project, a sales staff tool which found the best tariff 
+          and terminals which was deployed in all the customers store in the country.
 
 
 # certifications:
