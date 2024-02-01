@@ -58,7 +58,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: BSc in Telecommunications Engineering Telematics
+      - degree: Bachelor of Science in Telecommunications Engineering Telematics
         university: Universidad Politecnica de Madrid
         time: 2009 - 2014
         details:
@@ -257,6 +257,32 @@ skills:
 
       - name: Java
         level: 60%
+
+
+skills2:
+  title: Skills &amp; Proficiency 2
+
+  toolset:
+    - name: Scala
+      level: 90%
+
+    - name: Typelevel Framework (e.g. Cats, Cats-Effect, etc)
+      level: 75%
+
+    - name: Spark
+      level: 75%
+
+    - name: SQL (e.g. PostgresSQL)
+      level: 70%
+
+    - name: Cloud (e.g. AWS, GCP, etc)
+      level: 65%
+
+    - name: NoSQL (e.g. DynamoDB)
+      level: 60%
+
+    - name: Java
+      level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
