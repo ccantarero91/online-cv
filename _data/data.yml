@@ -3,125 +3,126 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Cristian Cantarero Dávila
-    tagline: Senior Software Developer
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Cristian Cantarero Dávila
+  tagline: Senior Software Developer
+  avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: c.cantarero91@outlook.es
-    phone: +34 696 52 37 03
-    timezone: Europe/Madrid Timezone
-    citizenship: Spanish
-    website:  #do not add http://
-    linkedin: cristiancantarero
-    github: ccantarero91
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # TODO
+  # Sidebar links
+  email: c.cantarero91@outlook.es
+  phone: +34 696 52 37 03
+  timezone: Europe/Madrid Timezone
+  citizenship: Spanish
+  website:  #do not add http://
+  linkedin: cristiancantarero
+  github: ccantarero91
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: # TODO
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Spanish
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Spanish
+        level: Native
 
-        - idiom: English
-          level: Professional
+      - idiom: English
+        level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Photography
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Photography
+        link:
 
-        - item: Cooking
-          link:
+      - item: Cooking
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems.
-      
-      I have a strong passion for learning and applying new technologies to real-world challenges. 
-      I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
+  title: Career Profile
+  summary: |
+    I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems.
+    
+    I have a strong passion for learning and applying new technologies to real-world challenges. 
+    I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
 
 education:
-    title: Education
-    info:
-      - degree: Bachelor of Science in Telecommunications Engineering Telematics
-        university: Universidad Politecnica de Madrid
-        time: 2009 - 2014
-        details:
+  title: Education
+  info:
+    - degree: Bachelor of Science in Telecommunications Engineering Telematics
+      university: Universidad Politecnica de Madrid
+      time: 2009 - 2014
+      details:
 experiences:
-    title: Experiences
-    info:
-      - role: Senior Software Developer
-        time: 2021 - Present
-        company: Xebia Functional (previously 47 Degrees)
-        details: |
-          **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using 
-          **Scala**, **typelevel**, and several frameworks and tools.
-          
-          Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems.
-          
-          Proficient in using **Kafka**, **Postgres**, **AWS stack** and other technologies to build and deploy cloud-based solutions.
-          
-          Experienced in working with different clients and domains, such as:
-            - **SiriusXM**: Leading and developing a cross company platform to remove user private information and help in the law application.
-            - **Depop**: 
-              - Worked on the first iteration of an in-house ads platform, business critical resulting in several million of revenue.
-              - Worked and collaborating on service for promotions that uses a custom internal DSL to express promotions.
-              - Both of them purely BE development as well as customer facing features, collaborating closely with frontend developers in the same agile/lean team. 
-              - Always having business focused, working in  to unlock value for final users and company.
-            - **Packlink**: 
-              - Worked on a data migration from a completely denormalized postal codes model stored as documents in ElasticSearch to a normalize model in MySQL.
-              - Also, worked and collaborated on redefinition of services and data flows to simplify postal code changes. 
-
-      - role: Big Data Engineer
-        time: 2018 - 2021
-        company: France Telecom Espana (Orange)
-        details: |
-          **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark** between other frameworks and applications.
-          
-          Experienced in working with heterogeneous teams and use cases, such as:
-            - Architecture team, where I help to develop platforms to be used by several teams on the company to reduce and make easier the creation of new ETL and use cases.
-            - Churn use cases, where using different ETL, AI models and business specific knowledge we defined the customer's daily risk working thigh with the marketing team to make big impact on the business and the time to market. 
-
-      - role: Big Data Engineer
-        time: 2017 - 2018
-        company: Stratio BD
-        details: |
-          I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark** and **Hive**.
-          
-          I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
-
-      - role: Internship -> Solutions Analyst
-        time: 2013 - 2018
-        company: NTT Data (previously Everis)
-        details: |
-          - I started my internship helping in the improvement and manage of uses cases demand for France Telecom Espana (Orange). 
-          
-          - A few months later, I did my final degree as a collaboration between the Universidad Politécnica de Madrid.
-          It was related with Virtual Mobile Operators and how to provide different services to their costumer through social networks. 
-          
-          - After that, in the same client for five years I was part of several successful use cases where we created 
-          several web applications oriented in make marketing and telemarketing daily work easier.  
-          
-          - At the beggining my work was more oriented in develop BE and FE web services and at the end I was leading 
-          a team in charge of provide new features in the apps and web applications used by the end customer. 
+  title: Experiences
+  info:
+    - role: Senior Software Developer
+      time: 2021 - Present
+      company: Xebia Functional (previously 47 Degrees)
+      details: |
+        **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using
+        **Scala**, **typelevel**, and several frameworks and tools.
+               
+        Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems.
         
-          - As a good example, I was part of the EUREKA project, a sales staff tool which found the best tariff 
-          and terminals which was deployed in all the customers store in the country.
+        Proficient in using **Kafka**, **Postgres**, **AWS stack**, and other technologies to build and deploy cloud-based solutions.
+        
+        Experienced in working with different clients and domains, such as:
+          - **SiriusXM** : 
+            - Leading and developing a cross-company platform to remove user private information and help in the law application.
+          - **Depop** :
+            - Worked on the first iteration of an in-house ads platform, a business-critical piece which resulted in several million of revenue.
+            - Worked and collaborated on a service for seller's promotions that uses a custom internal DSL to express promotions.
+            - Both of them, purely backend development, as well as, customer-facing features, where I collaborated closely with frontend developers in the same agile/lean team.
+            - Always having business focused, working to unlock value for final users and company.
+          - **Packlink** :
+            - Worked on data migration from a completely denormalized postal codes model stored as documents in ElasticSearch to a normalized model in MySQL.
+            - Also, worked and collaborated on a redefinition of services and data flows to simplify postal code changes.
+
+    - role: Big Data Engineer
+      time: 2018 - 2021
+      company: France Telecom Espana (Orange)
+      details: |
+        **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark** between other frameworks and applications.
+        
+        Experienced in working with heterogeneous teams and use cases, such as:
+          - Architecture team, where I helped in the development of platforms to be used by different teams in the company and made easier the creation of new ETL in the use cases.
+          - Churn use cases, where using different ETL, AI models, and business-specific knowledge we defined the customer's daily risk. It was done working closely with the marketing team to make a big impact on the business and have a competitive time to market. 
+
+    - role: Big Data Engineer
+      time: 2017 - 2018
+      company: Stratio BD
+      details: |
+        I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark**, and **Hive**.
+        
+        I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
+
+    - role: From Internship to Solutions Analyst
+      time: 2013 - 2018
+      company: NTT Data (previously Everis)
+      details: |
+        - I started my **internship** helping in the improvement and management of use cases demand for France Telecom Espana (Orange). 
+        
+        - A few months later, I completed **my final degree** in collaboration with the Universidad Politécnica de Madrid.
+        It was related to Virtual Mobile Operators and how to provide different services to their customers through social networks. 
+        
+        - After that, in the same client **for five years**, I was part of different successful use cases where we created 
+        several web applications oriented to make marketing and telemarketing daily work easier.  
+        
+        - In the beginning, my work was more oriented on developing BE and FE web services, and at the end I was leading 
+        a team in charge of providing new features in the apps and web applications used by the end customer. 
+        
+        - As a good example, I was part of the EUREKA project, a sales staff web application thath helped to found the best tariff 
+        and terminals using as input the client characteristics. It was deployed and used in all the customer's stores in Spain.
 
 
 # certifications:
@@ -234,33 +235,7 @@ experiences:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 # 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Scala
-        level: 90%
-
-      - name: Typelevel Framework (e.g. Cats, Cats-Effect, etc)
-        level: 75%
-
-      - name: Spark
-        level: 75%
-
-      - name: SQL (e.g. PostgresSQL)
-        level: 70%
-
-      - name: Cloud (e.g. AWS, GCP, etc)
-        level: 65%
-
-      - name: NoSQL (e.g. DynamoDB)
-        level: 60%
-
-      - name: Java
-        level: 60%
-
-
-skills2:
-  title: Skills &amp; Proficiency 2
+  title: Skills &amp; Proficiency
 
   toolset:
     - name: Scala
@@ -284,5 +259,6 @@ skills2:
     - name: Java
       level: 60%
 
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
