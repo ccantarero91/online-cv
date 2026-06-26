@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Cristian Cantarero Dávila
-  tagline: Senior Software Developer
+  tagline: Staff Engineer
   avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -56,10 +56,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I'm a software engineer specializing in functional programming and distributed systems, with experience tackling complex problems.
-    
-    I have a strong passion for learning and applying new technologies to real-world challenges. 
-    I'm currently seeking a challenging role to further develop my skills and make a meaningful impact in the field.
+    Staff Engineer specialising in backend and distributed systems on the **JVM** (**Scala** and **Java**),
+    with a track record building reliable, high-scale services handling millions of requests per day.
+
+    Strong in **functional programming**, **event-driven architecture** and **DDD**, and an early adopter of
+    AI-assisted development workflows (Claude Code, opencode). Open to challenging roles where I can make a meaningful impact.
 
 education:
   title: Education
@@ -71,64 +72,51 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Senior Software Developer
+  - role: Staff Engineer
     time: 2021 - Present
-    company: Xebia Functional (previously 47 Degrees)
+    company: Xebia (previously Xebia Functional / 47 Degrees)
     details: |
-      **Software Engineer** with **3 years** of experience in developing scalable and reliable applications using
-      **Scala**, **typelevel**, and several frameworks and tools.
-      
-      Skilled in applying **microservices**, **event-driven architecture**, and **DDD** techniques to design and implement complex systems.
-      
-      Proficient in using **Kafka**, **Postgres**, **AWS stack**, and other technologies to build and deploy cloud-based solutions.
-      
-      Experienced in working with different clients and domains, such as:
-      - **SiriusXM** : 
-      - Leading and developing a cross-company platform to remove user private information and help in the law application.
-      - **Depop** :
-      - Worked on the first iteration of an in-house ads platform, a business-critical piece which resulted in several million of revenue.
-      - Worked and collaborated on a service for seller's promotions that uses a custom internal DSL to express promotions.
-      - Both of them, purely backend development, as well as, customer-facing features, where I collaborated closely with frontend developers in the same agile/lean team.
-      - Always having business focused, working to unlock value for final users and company.
-      - **Packlink** :
-      - Worked on data migration from a completely denormalized postal codes model stored as documents in ElasticSearch to a normalized model in MySQL.
-      - Also, worked and collaborated on a redefinition of services and data flows to simplify postal code changes.
+      Designing and operating scalable, reliable backend systems with **microservices**, **event-driven architecture** and **DDD**, using **Scala**, **Typelevel**, **Kafka**, **Postgres** and the **AWS** stack.
+
+      Alongside client work, I serve as **Consulting Lead** — a non-client role bridging engineers and engineering managers: monthly 1:1s to follow progress and growth, help define yearly goals, and surface situations that need manager support.
+
+      Worked across different clients and domains:
+
+      - SiriusXM
+        - Co-led the privacy domain, defining how user data is handled across the company for data protection and legal compliance.
+        - Now part of the tokens domain team, granting secure streaming access to devices ranging from smart assistants (Google, Alexa) to connected vehicles (Tesla, Rivian) — a high-traffic service now serving 213M requests/day (~2.5k req/s) at a p95 of 70ms and an error rate below 0.1%:
+          - Co-led the integration of a new next-generation vehicle platform with the streaming service, including its technical design.
+          - Working closely with adjacent domains such as devices and users on high-traffic, business-critical flows.
+          - Built on **Scala 3** with **Cats Effect**, **Smithy** and **Weaver** on an event-driven **AWS** stack (**DynamoDB**, **Lambda**, **Kinesis**); on-call one week a month with a 5-minute response target.
+        - Using **GenAI** tooling (Claude, opencode) day to day to ship faster.
+      - Depop
+        - Built the first iteration of an in-house ads platform, a business-critical piece that drove several million in revenue.
+        - Built a seller-promotions service powered by a custom internal DSL, spanning backend and customer-facing work in close collaboration with frontend in the same agile team.
+      - Packlink
+        - Migrated a denormalized postal-codes model from **ElasticSearch** to a normalized **MySQL** schema, and helped redefine services and data flows to simplify postal-code changes.
 
   - role: Big Data Engineer
     time: 2018 - 2021
     company: France Telecom Espana (Orange)
     details: |
-      **Big Data Engineer** with **3 years** of experience in developing Big Data pipelines using **Scala**, **Spark** between other frameworks and applications.
-      
-      Experienced in working with heterogeneous teams and use cases, such as:
-      - Architecture team, where I helped in the development of platforms to be used by different teams in the company and made easier the creation of new ETL in the use cases.
-      - Churn use cases, where using different ETL, AI models, and business-specific knowledge we defined the customer's daily risk. It was done working closely with the marketing team to make a big impact on the business and have a competitive time to market. 
+      Built Big Data pipelines with **Scala** and **Spark** across heterogeneous teams and use cases:
+      - Architecture team: developed shared platforms used across the company, simplifying the creation of new **ETL** jobs.
+      - Churn use cases: combined **ETL**, ML models and domain knowledge to score customers' daily risk, working with marketing for a competitive time to market.
 
   - role: Big Data Engineer
     time: 2017 - 2018
     company: Stratio BD
     details: |
-      I started my experience as **Big Data Engineer** developing Big Data pipelines using **Scala**, **Spark**, and **Hive**.
-      
-      I worked for the retail company Carrefour Spain, where I developed several big data pipelines to help in their digital transformation.
+      Started building Big Data pipelines with **Scala**, **Spark** and **Hive** for the retailer Carrefour Spain, developing several pipelines to support their digital transformation.
 
   - role: From Internship to Solutions Analyst
     time: 2013 - 2018
     company: NTT Data (previously Everis)
     details: |
-      - I started my **internship** helping in the improvement and management of use cases demand for France Telecom Espana (Orange). 
-      
-      - A few months later, I completed **my final degree** in collaboration with the Universidad Politécnica de Madrid.
-      It was related to Virtual Mobile Operators and how to provide different services to their customers through social networks. 
-      
-      - After that, in the same client **for five years**, I was part of different successful use cases where we created 
-      several web applications oriented to make marketing and telemarketing daily work easier.  
-      
-      - In the beginning, my work was more oriented on developing BE and FE web services, and at the end I was leading 
-      a team in charge of providing new features in the apps and web applications used by the end customer. 
-      
-      - As a good example, I was part of the EUREKA project, a sales staff web application thath helped to found the best tariff 
-      and terminals using as input the client characteristics. It was deployed and used in all the customer's stores in Spain.
+      - Started with an internship managing use-case demand for France Telecom España (Orange).
+      - Completed my final degree with Universidad Politécnica de Madrid, on Virtual Mobile Operators and delivering services to customers through social networks.
+      - Over five years with the same client, built web applications to streamline marketing and telemarketing work — first developing backend and frontend web services, later leading a team delivering new features in the customer-facing apps.
+      - Part of the EUREKA project: a sales-staff web app that recommended the best tariff and devices from client characteristics, deployed across all the customer's stores in Spain.
 
 #certifications:
 #  title: Certifications
@@ -166,25 +154,52 @@ experiences:
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Open-source contributions to the Scala ecosystem.
   contributions:
-    - title: Scala retry 
-      link: "#"
-      tagline: "TODO"
+    - title: cats-retry
+      link: "https://github.com/cb372/cats-retry/releases/tag/v4.0.0"
+      tagline: "Contributor to cats-retry, a purely functional retry & sleep library for Scala (v4.0.0 release)."
 
 recommendations:
   title: Recommendations
   list:
     - person: Alessandro Candolini
-      role: Staff Engineer at Depop
+      role: Physicist & Software Engineer at Depop
       recommendation: |
-        Link to Linkedin 
-    - person: Jorge Manzaneque
-      role: General Director at example.com
+        It has been truly a pleasure to work with Cristian. During his two years at Depop, we have been
+        working together on a number of projects that I was leading, ranging from purely technical internal
+        migrations with hard deadlines to user facing business critical features in core areas of the user
+        journey, like checkout. In all projects, Cristian has demonstrated a sense of ownership and
+        accountability (eg, by adapting to the needs of the project and unblock himself and the rest of the
+        team), willingness to go above and beyond his role (eg, recognising areas where the company could have
+        save infrastructure costs and proactively implement cost saving solutions), desire to always learn
+        more about everything (technology, functional programming, and product). Cristian helped me releasing
+        some of the first Scala 3 services at Depop in early 2022, and together we run a number of internal
+        initiatives to spread knowledge across the organisation of how functional programming can be used in
+        very pragmatic ways to successfully deliver business value. Cristian is capable of working
+        independently when needed, but he shines as a great team player, and his positive attitude allows to
+        approach even the hardest technical challenges with a smile. I highly recommend Cristian for any role
+        or project.
+    - person: Jorge Manzaneque Olmedo
+      role: Project Manager at Orange (PMP®)
       recommendation: |
-        I would like to work with Alan Doe again!
-        
-        He is a great employee!
+        I have had the opportunity to work with Cristian every day over the last three years,
+        developing and maintaining web applications.
+
+        He is an excellent professional. He has great analytical skills and a clear focus on always
+        finding the best result. His technical background, as well as his vision on how to tackle the
+        problems that arise day to day, have always brought great value to the team's performance.
+        On top of that, he has a great ability to manage teams and to share his knowledge in a clear
+        and concise way.
+
+        I recommend Cristian for any role that requires a committed professional with great human
+        qualities, who knows how to work as a team, build relationships with clients, and at the same
+        time pay attention to detail across the different projects he works on.
+    - person: Javier Pérez
+      role: Software Engineer (Freelance)
+      recommendation: |
+        I have had the opportunity to work in an Agile team with Cristian as Scrum Master.
+        Cristian is a great facilitator and also stands out with the qualities of a good leader.
 
 skills:
   title: Skills &amp; Proficiency
@@ -193,20 +208,23 @@ skills:
     - name: Scala
       level: 90%
 
-    - name: Spark
-      level: 75%
+    - name: Java / JVM
+      level: 78%
 
-    - name: SQL (e.g. PostgresSQL)
+    - name: SQL (e.g. PostgreSQL)
       level: 70%
 
     - name: Cloud (e.g. AWS, GCP, etc)
       level: 65%
 
+    - name: Spark
+      level: 75%
+
     - name: NoSQL (e.g. DynamoDB)
       level: 60%
 
-    - name: Java
-      level: 70%
+    - name: AI-assisted dev (Claude Code, opencode)
+      level: 80%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
