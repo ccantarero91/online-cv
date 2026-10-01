@@ -87,13 +87,15 @@ experiences:
         - Now part of the tokens domain team, granting secure streaming access to devices ranging from smart assistants (Google, Alexa) to connected vehicles (Tesla, Rivian) — a high-traffic service now serving 213M requests/day (~2.5k req/s) at a p95 of 70ms and an error rate below 0.1%:
           - Team-level technical contributor on the integration of a new next-generation vehicle platform with the streaming service, taking part in its technical design and in the cross-team meetings around it.
           - Working closely with adjacent domains such as devices and users on high-traffic, business-critical flows.
-          - Built on **Scala 3** with the **Typelevel** ecosystem (**Cats Effect**, **Smithy**, **Weaver**) and an event-driven **AWS** stack: **DynamoDB** for persistence, **Kinesis** and **EventBridge** as event bus, plus **Lambda** and the rest of the AWS infrastructure; on-call one week a month with a 5-minute response target.
+          - Built on **Scala 3** with the **Typelevel** ecosystem (**Cats Effect**, **Smithy**, **Weaver**) and an event-driven **AWS** stack: **DynamoDB** for persistence, **Kinesis** for consuming events, plus **Lambda** and the rest of the AWS infrastructure; on-call one week a month with a 5-minute response target.
         - Using **GenAI** tooling (Claude, opencode) day to day to ship faster.
       - Depop
         - Built the first iteration of an in-house ads platform, a business-critical piece that drove several million in revenue.
         - Built a seller-promotions service powered by a custom internal DSL, spanning backend and customer-facing work in close collaboration with frontend in the same agile team.
+        - Built on **Scala 2** microservices on **AWS**, with **Play** as the main framework and **Slick** over **Postgres**.
       - Packlink
         - Migrated a denormalized postal-codes model from **ElasticSearch** to a normalized **MySQL** schema, and helped redefine services and data flows to simplify postal-code changes.
+        - Worked in **Scala** with **ElasticSearch** and **Postgres**.
 
   - role: Big Data Engineer
     time: 2018 - 2021
