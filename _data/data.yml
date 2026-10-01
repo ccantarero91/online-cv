@@ -213,7 +213,7 @@ skills:
     - name: Java / JVM
       level: 78%
 
-    - name: SQL (e.g. PostgreSQL)
+    - name: SQL (e.g. PostgreSQL, MySQL)
       level: 70%
 
     - name: Cloud (e.g. AWS, GCP, etc)
