@@ -83,7 +83,7 @@ experiences:
       Worked across different clients and domains:
 
       - SiriusXM
-        - Co-led the privacy domain, defining how user data is handled across the company for data protection and legal compliance.
+        - Helped implement the services that allow a user's data to be fully deleted across the newly built ecosystem, supporting data protection and legal compliance.
         - Now part of the tokens domain team, granting secure streaming access to devices ranging from smart assistants (Google, Alexa) to connected vehicles (Tesla, Rivian) — a high-traffic service now serving 213M requests/day (~2.5k req/s) at a p95 of 70ms and an error rate below 0.1%:
           - Team-level technical contributor on the integration of a new next-generation vehicle platform with the streaming service, taking part in its technical design and in the cross-team meetings around it.
           - Working closely with adjacent domains such as devices and users on high-traffic, business-critical flows.
