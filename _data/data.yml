@@ -151,7 +151,8 @@ projects:
     Personal projects.
   assignments:
     - title: Ribería
-      tagline: "Wine-recommendation project with a Scala backend (smithy4s, http4s) and a RAG layer: Postgres + pgvector, multilingual embeddings (bge-m3) and vision-model OCR of wine lists, running on self-hosted LLMs (Ollama). Available to use as a Telegram bot."
+      link: "https://t.me/RiberiaBot"
+      tagline: "Wine-recommendation project with a Scala backend (smithy4s, http4s) and a RAG layer: Postgres + pgvector, multilingual embeddings and vision-model OCR of wine lists. Available as a Telegram bot."
 oss:
   title: OSS Contributions
   intro: >
