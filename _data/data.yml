@@ -95,7 +95,7 @@ experiences:
         - Built on **Scala 2** microservices on **AWS**, with **Play** as the main framework and **Slick** over **Postgres**.
       - Packlink
         - Migrated a denormalized postal-codes model from **ElasticSearch** to a normalized **MySQL** schema, and helped redefine services and data flows to simplify postal-code changes.
-        - Worked in **Scala** with **ElasticSearch** and **Postgres**.
+        - Worked in **Scala** with **ElasticSearch** and **MySQL**.
 
   - role: Big Data Engineer
     time: 2018 - 2021
