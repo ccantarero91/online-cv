@@ -76,7 +76,7 @@ experiences:
     time: 2021 - Present
     company: Xebia (previously Xebia Functional / 47 Degrees)
     details: |
-      Designing and operating scalable, reliable backend systems with **microservices**, **event-driven architecture** and **DDD**, mainly with **Scala** and **Kafka**; the stack used at each client is detailed below.
+      Designing and operating scalable, reliable backend systems with **microservices**, **event-driven architecture** and **DDD**; the stack used at each client is detailed below.
 
       Alongside client work, I serve as **Consulting Lead** — a non-client role bridging engineers and engineering managers: monthly 1:1s to follow progress and growth, help define yearly goals, and surface situations that need manager support.
 
@@ -87,7 +87,7 @@ experiences:
         - Now part of the tokens domain team, granting secure streaming access to devices ranging from smart assistants (Google, Alexa) to connected vehicles (Tesla, Rivian) — a high-traffic service now serving 213M requests/day (~2.5k req/s) at a p95 of 70ms and an error rate below 0.1%:
           - Team-level technical contributor on the integration of a new next-generation vehicle platform with the streaming service, taking part in its technical design and in the cross-team meetings around it.
           - Working closely with adjacent domains such as devices and users on high-traffic, business-critical flows.
-          - Built on **Scala 3** with **Cats Effect**, **Smithy** and **Weaver** on an event-driven **AWS** stack (**DynamoDB**, **Lambda**, **Kinesis**); on-call one week a month with a 5-minute response target.
+          - Built on **Scala 3** with the **Typelevel** ecosystem (**Cats Effect**, **Smithy**, **Weaver**) and an event-driven **AWS** stack: **DynamoDB** for persistence, **Kinesis** and **EventBridge** as event bus, plus **Lambda** and the rest of the AWS infrastructure; on-call one week a month with a 5-minute response target.
         - Using **GenAI** tooling (Claude, opencode) day to day to ship faster.
       - Depop
         - Built the first iteration of an in-house ads platform, a business-critical piece that drove several million in revenue.
