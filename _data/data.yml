@@ -76,24 +76,26 @@ experiences:
     time: 2021 - Present
     company: Xebia (previously Xebia Functional / 47 Degrees)
     details: |
-      Designing and operating scalable, reliable backend systems with **microservices**, **event-driven architecture** and **DDD**, using **Scala**, **Typelevel**, **Kafka**, **Postgres** and the **AWS** stack.
+      Designing and operating scalable, reliable backend systems with **microservices**, **event-driven architecture** and **DDD**; the stack used at each client is detailed below.
 
       Alongside client work, I serve as **Consulting Lead** — a non-client role bridging engineers and engineering managers: monthly 1:1s to follow progress and growth, help define yearly goals, and surface situations that need manager support.
 
       Worked across different clients and domains:
 
       - SiriusXM
-        - Co-led the privacy domain, defining how user data is handled across the company for data protection and legal compliance.
+        - Helped implement the services that allow a user's data to be fully deleted across the newly built ecosystem, supporting data protection and legal compliance.
         - Now part of the tokens domain team, granting secure streaming access to devices ranging from smart assistants (Google, Alexa) to connected vehicles (Tesla, Rivian) — a high-traffic service now serving 213M requests/day (~2.5k req/s) at a p95 of 70ms and an error rate below 0.1%:
-          - Co-led the integration of a new next-generation vehicle platform with the streaming service, including its technical design.
+          - Team-level technical contributor on the integration of a new next-generation vehicle platform with the streaming service, taking part in its technical design and in the cross-team meetings around it.
           - Working closely with adjacent domains such as devices and users on high-traffic, business-critical flows.
-          - Built on **Scala 3** with **Cats Effect**, **Smithy** and **Weaver** on an event-driven **AWS** stack (**DynamoDB**, **Lambda**, **Kinesis**); on-call one week a month with a 5-minute response target.
+          - Built on **Scala 3** with the **Typelevel** ecosystem (**Cats Effect**, **Smithy**, **Weaver**) and an event-driven **AWS** stack: **DynamoDB** for persistence, **Kinesis** for consuming events, plus **Lambda** and the rest of the AWS infrastructure; on-call one week a month with a 5-minute response target.
         - Using **GenAI** tooling (Claude, opencode) day to day to ship faster.
       - Depop
         - Built the first iteration of an in-house ads platform, a business-critical piece that drove several million in revenue.
         - Built a seller-promotions service powered by a custom internal DSL, spanning backend and customer-facing work in close collaboration with frontend in the same agile team.
+        - Built on **Scala 2** microservices on **AWS**, with **Play** as the main framework and **Slick** over **Postgres**.
       - Packlink
         - Migrated a denormalized postal-codes model from **ElasticSearch** to a normalized **MySQL** schema, and helped redefine services and data flows to simplify postal-code changes.
+        - Worked in **Scala** with **ElasticSearch** and **MySQL**.
 
   - role: Big Data Engineer
     time: 2018 - 2021
@@ -143,14 +145,14 @@ experiences:
 #        justo diam viverra velit, sed rhoncus leo leo eu justo.
 #        Suspendisse placerat risus ante, sed porta nisi blandit at.
 
-#projects:
-#  title: Projects
-#  intro: >
-#    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#  assignments:
-#    - title: Velocity
-#      link: "#hook"
-#      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+  title: Projects
+  intro: >
+    Personal projects.
+  assignments:
+    - title: Ribería
+      link: "https://t.me/RiberiaBot"
+      tagline: "Wine-recommendation project with a Scala backend (smithy4s, http4s) and a RAG layer: Postgres + pgvector, multilingual embeddings and vision-model OCR of wine lists. Available as a Telegram bot."
 oss:
   title: OSS Contributions
   intro: >
@@ -211,10 +213,10 @@ skills:
     - name: Java / JVM
       level: 78%
 
-    - name: SQL (e.g. PostgreSQL)
+    - name: SQL (e.g. PostgreSQL, MySQL)
       level: 70%
 
-    - name: Cloud (e.g. AWS, GCP, etc)
+    - name: Cloud (e.g. AWS)
       level: 65%
 
     - name: Spark
