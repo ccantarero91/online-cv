@@ -216,7 +216,7 @@ skills:
     - name: SQL (e.g. PostgreSQL, MySQL)
       level: 70%
 
-    - name: Cloud (e.g. AWS, GCP, etc)
+    - name: Cloud (e.g. AWS)
       level: 65%
 
     - name: Spark
