@@ -145,14 +145,13 @@ experiences:
 #        justo diam viverra velit, sed rhoncus leo leo eu justo.
 #        Suspendisse placerat risus ante, sed porta nisi blandit at.
 
-#projects:
-#  title: Projects
-#  intro: >
-#    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#  assignments:
-#    - title: Velocity
-#      link: "#hook"
-#      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+  title: Projects
+  intro: >
+    Personal projects.
+  assignments:
+    - title: Ribería
+      tagline: "Wine-recommendation project with a Scala backend (smithy4s, http4s) and a RAG layer: Postgres + pgvector, multilingual embeddings (bge-m3) and vision-model OCR of wine lists, running on self-hosted LLMs (Ollama). Available to use as a Telegram bot."
 oss:
   title: OSS Contributions
   intro: >
