@@ -9,6 +9,11 @@
   }
   .wrapper {
     max-width: 100%;
+    // A4 is narrower than the 768px mobile breakpoint; keep the two-column grid
+    display: grid !important;
+  }
+  .main-wrapper {
+    padding: 30px;
   }
 
   //   img.avatar {
@@ -16,7 +21,10 @@
   //     -webkit-filter: greyscale(1);
   //   }
   .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
+    // undo the mobile-breakpoint override so dates sit on the title row
+    position: absolute !important;
+    padding: 0;
+    white-space: nowrap;
     //  float: right;
     //  color: black !important;
     -webkit-print-color-adjust: exact;
